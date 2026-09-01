@@ -1,0 +1,26 @@
+import fs from 'fs';
+
+const dbPath = new URL('./database.json', import.meta.url);
+const database = JSON.parse(fs.readFileSync(dbPath, 'utf8'));
+
+const stats = {};
+for (const settings of Object.values(database.settings || {})) {
+  const commandStats = settings.commandStats || {};
+  for (const [command, count] of Object.entries(commandStats)) {
+    stats[command] = (stats[command] || 0) + Number(count || 0);
+  }
+}
+
+const ranking = Object.entries(stats)
+  .sort((a, b) => Number(b[1]) - Number(a[1]))
+  .slice(0, 10);
+
+console.log('TOP 10 COMANDOS MÁS USADOS');
+if (!ranking.length) {
+  console.log('No hay estadísticas guardadas todavía.');
+  process.exit(0);
+}
+
+for (const [index, [command, count]] of ranking.entries()) {
+  console.log(`${index + 1}. ${command} -> ${Number(count).toLocaleString()}`);
+}
