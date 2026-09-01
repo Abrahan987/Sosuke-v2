@@ -1,7 +1,7 @@
 # ✨ Aizen Bot
 
 <div align="center">
-  <img src="https://www.bing.com/images/search?view=detailV2&ccid=S8Z3kxvc&id=FF332FBE10A7949546DCA28D4414223728CB25E3&thid=OIP.S8Z3kxvcPI2FdGstLSqqpwHaFj&mediaurl=https%3a%2f%2fstatic.wikia.nocookie.net%2fbleach%2fimages%2f4%2f45%2fEp279AizenProfile.png%2frevision%2flatest%2fscale-to-width-down%2f1200%3fcb%3d20220811013836%26path-prefix%3den&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.4bc677931bdc3c8d85746b2d2d2aaaa7%3frik%3d4yXLKDciFESNog%26pid%3dImgRaw%26r%3d0&exph=900&expw=1200&q=sosuke+aizen&FORM=IRPRST&ck=D6D875A3E972E543C2C562F614C3499A&selectedIndex=1&itb=0" alt="Aizen Bot banner" width="100%" />
+  <img src="" alt="Aizen Bot banner" width="100%" />
 </div>
 
 <p align="center">
