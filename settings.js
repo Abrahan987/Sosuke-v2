@@ -7,7 +7,7 @@ global.mods = [] // moderadores adicionales
 
 global.api = {
   url: 'https://api.delirius.online/download',
-  key: ''
+  key: 'proyectsV2'
 }
 
 global.msgglobal = `┈┈┈〔 𖤐 〕┈┈┈
